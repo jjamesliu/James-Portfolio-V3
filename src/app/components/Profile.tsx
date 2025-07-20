@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Profile() {
     return (
         <div className='py-8 mx-auto border border-gray-400 border-dotted border-t-0'>
-            <div className='relative w-25 h-25 mx-auto'>
+            <div className='relative w-35 h-35 mx-auto'>
                 <Image src="/jamesliuprofilepicture.png"
                 alt="James Liu Profile Picture"
                 className='object-cover object-[center_10%] rounded-lg'
