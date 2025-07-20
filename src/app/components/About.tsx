@@ -5,7 +5,7 @@ export default function About() {
                 <h1 className='font-semibold font-mono'>ABOUT</h1>
                 <p className='text-txt-color'>
                     I'm a Full Stack Developer focused on creating user-friendly impactful
-                    web applications. I design responsive UIs, developing web applications,
+                    web applications. I design responsive UIs and develop web applications
                     from concept to deployment. Currently studying at University of California:
                     Los Angeles
                 </p>
