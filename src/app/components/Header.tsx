@@ -1,6 +1,6 @@
 "use client";
 import {useEffect, useState} from 'react'
-
+import {MapPin} from 'lucide-react'
 
 export default function Header() {
     const [time, setTime] = useState(new Date());
@@ -14,9 +14,14 @@ export default function Header() {
     const formattedTime = time.toLocaleTimeString();
 
     return(
-        <div className='flex flex-row font-sans justify-between bg-red-100'>
-            <h3>Los Angeles, California</h3>
-            <p>{formattedTime}</p>
+        <div className='border border-gray-300 dotted border-t-0'>
+            <div className='flex flex-row font-mono justify-between text-txt-color p-6'>
+                <div className='flex flex-row gap-1'>
+                    <MapPin className='w-4'/>
+                    <h3>Los Angeles, California</h3>
+                </div>
+                <p>{formattedTime}</p>
+            </div>
         </div>
     );
 }
