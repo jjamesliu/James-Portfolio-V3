@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function Profile() {
     return (
         <div className='py-8 mx-auto border border-gray-400 border-dotted border-t-0'>
-            <div className='relative w-35 h-35 mx-auto overflow-hidden'>
+            <div className='relative w-35 h-35 mx-auto overflow-hidden rounded-lg'>
                 <Image src="/jamesliuprofilepicture.png"
                 alt="James Liu Profile Picture"
-                className='object-cover object-[center_10%] rounded-lg'
-                fill
+                className='object-cover'
+                style={{ objectPosition: 'center 10%'}}
                 priority
-                placeholder="blur"
+                fill
                 />
             </div>
             <div className='flex flex-col items-center mt-4 gap-1'>
