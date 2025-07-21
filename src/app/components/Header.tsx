@@ -3,16 +3,15 @@ import {useEffect, useState} from 'react'
 import {MapPin} from 'lucide-react'
 
 export default function Header() {
-    // const [time, setTime] = useState<Date | null>(null);
-    // useEffect(()=> {
-    //     const interval = setInterval(()=> {
-    //         setTime(new Date());
-    //     }, 1000);
-    //     return () => clearInterval(interval);
-    // }, []);
+    const [time, setTime] = useState<Date | null>(null);
+    useEffect(()=> {
+        const interval = setInterval(()=> {
+            setTime(new Date());
+        }, 1000);
+        return () => clearInterval(interval);
+    }, []);
     
-    // const formattedTime = time ? time.toLocaleTimeString() : '';
-    const formattedTime=1
+    const formattedTime = time ? time.toLocaleTimeString() : '';
 
     return(
         <div className='border border-gray-300 dotted'>
