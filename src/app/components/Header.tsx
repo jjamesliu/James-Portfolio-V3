@@ -14,7 +14,7 @@ export default function Header() {
     const formattedTime = time ? time.toLocaleTimeString() : '';
 
     return(
-        <div className='border border-gray-300 dotted border-t-0'>
+        <div className='border border-gray-300 dotted'>
             <div className='flex flex-row font-mono justify-between text-txt-color p-6'>
                 <div className='flex flex-row gap-1'>
                     <MapPin className='w-4'/>

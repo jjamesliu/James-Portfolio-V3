@@ -8,6 +8,7 @@ export default function Profile() {
                 alt="James Liu Profile Picture"
                 className='object-cover object-[center_10%] rounded-lg'
                 fill
+                priority
                 />
             </div>
             <div className='flex flex-col items-center mt-4 gap-1'>
