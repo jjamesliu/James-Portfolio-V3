@@ -4,12 +4,10 @@ export default function Profile() {
     return (
         <div className='py-8 mx-auto border border-gray-400 border-dotted border-t-0'>
             <div className='relative w-35 h-35 mx-auto overflow-hidden rounded-lg'>
-                <Image src="/jamesliuprofilepicture.png"
+                <img src="/jamesliuprofilepicture.png"
                 alt="James Liu Profile Picture"
-                className='object-cover'
-                style={{ objectPosition: 'center 10%'}}
-                priority
-                fill
+                className='object-cover w-full h-full object-[center_10%]'
+                
                 />
             </div>
             <div className='flex flex-col items-center mt-4 gap-1'>
