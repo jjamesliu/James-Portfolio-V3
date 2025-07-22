@@ -1,3 +1,5 @@
+import { Github, Globe } from 'lucide-react';
+
 export default function ProjectSection() {
     const projects = [{
         id: 'chefcowai',
@@ -44,9 +46,13 @@ export default function ProjectSection() {
                             )
                             )}
                         </div>
-                        <div className='flex flex-row gap-2'>
-                            <button>Github</button>
-                            <button>Website</button>
+                        <div className='flex flex-row gap-3 mt-4 '>
+                            <a className='justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                            href={project.github}
+                            target="_blank"><Github />Github</a>
+                            <a className='justify-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                            href={project.website}
+                            target="_blank"><Globe />Website</a>
                         </div>
                     </div>
                 )
