@@ -41,7 +41,7 @@ export default function ProjectSection() {
                                     <img className='w-full h-full object-cover'
                                     src={project.image}/>
                                 </div>
-                                <h1 className='text-[1.2rem] text-gray-700'>{project.title}</h1>
+                                <h1 className='text-[1.2rem] text-gray-700 hover:underline'><a href={project.website} target="_blank">{project.title}</a></h1>
                                 <p className='text-[1rem] text-txt-color'>{project.desc}</p>
                                 <div className='mt-3 flex flex-row gap-1.5 flex-wrap'>
                                     {project.skills.map( (skill, index) => (
