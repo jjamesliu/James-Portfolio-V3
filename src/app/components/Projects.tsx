@@ -35,27 +35,31 @@ export default function ProjectSection() {
 
                 <div className='flex flex-col mt-3 gap-5'>
                     {projects.map( (project) => (
-                        <div key={project.id}
-                        className='flex flex-col border border-gray-300 p-6 rounded-xl'>
-                            <h1 className='text-[1.2rem] text-gray-700'>{project.title}</h1>
-                            <p className='text-[1rem] text-txt-color'>{project.desc}</p>
-                            <div className='mt-3 flex flex-row gap-1.5 flex-wrap'>
-                                {project.skills.map( (skill, index) => (
-                                    <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm'>
-                                        <p>{skill}</p>
-                                    </div>
-                                )
-                                )}
+                            <div key={project.id}
+                            className='flex flex-col border border-gray-400 p-6 rounded-xl border-dotted'>
+                                <div className='overflow-hidden bg-red-100 w-full md:h-[30rem] lg:h-[25rem] mb-3 border border-gray-300 rounded-2xl shadow-lg'>
+                                    <img className='w-full h-full object-cover'
+                                    src={project.image}/>
+                                </div>
+                                <h1 className='text-[1.2rem] text-gray-700'>{project.title}</h1>
+                                <p className='text-[1rem] text-txt-color'>{project.desc}</p>
+                                <div className='mt-3 flex flex-row gap-1.5 flex-wrap'>
+                                    {project.skills.map( (skill, index) => (
+                                        <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm'>
+                                            <p>{skill}</p>
+                                        </div>
+                                    )
+                                    )}
+                                </div>
+                                <div className='flex flex-row gap-3 mt-4 '>
+                                    <a className='justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                    href={project.github}
+                                    target="_blank"><Github />Github</a>
+                                    <a className='justify-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                    href={project.website}
+                                    target="_blank"><Globe />Website</a>
+                                </div>
                             </div>
-                            <div className='flex flex-row gap-3 mt-4 '>
-                                <a className='justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
-                                href={project.github}
-                                target="_blank"><Github />Github</a>
-                                <a className='justify-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
-                                href={project.website}
-                                target="_blank"><Globe />Website</a>
-                            </div>
-                        </div>
                     )
                     )}
                 </div>
