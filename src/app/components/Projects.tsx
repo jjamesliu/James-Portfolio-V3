@@ -37,7 +37,7 @@ export default function ProjectSection() {
                     {projects.map( (project) => (
                             <div key={project.id}
                             className='flex flex-col border border-gray-400 p-6 rounded-xl border-dotted'>
-                                <div className='overflow-hidden bg-red-100 w-full md:h-[30rem] lg:h-[25rem] mb-3 border border-gray-300 rounded-2xl shadow-lg'>
+                                <div className='overflow-hidden bg-red-100 w-full h-[15rem] sm:h-[25rem] mb-3 border border-gray-300 rounded-2xl shadow-lg'>
                                     <img className='w-full h-full object-cover'
                                     src={project.image}/>
                                 </div>
