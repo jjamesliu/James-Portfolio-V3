@@ -5,11 +5,12 @@ import { FileUser } from 'lucide-react';
 export default function Profile() {
     return (
         <div className='py-8 mx-auto border border-gray-400 border-dotted border-t-0'>
-            <div className='relative w-25 h-25 mx-auto'>
+            <div className='relative w-35 h-35 mx-auto overflow-hidden rounded-lg'>
                 <Image src="/jamesliuprofilepicture.png"
                 alt="James Liu Profile Picture"
-                className='object-cover object-[center_10%] rounded-lg'
+                className='object-cover object-[center_10%]'
                 fill
+                priority
                 />
             </div>
             <div className='flex flex-col items-center mt-4 gap-1'>
