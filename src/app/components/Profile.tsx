@@ -5,7 +5,7 @@ import { FileUser } from 'lucide-react';
 export default function Profile() {
     return (
         <div className='py-8 mx-auto border border-gray-400 border-dotted border-t-0'>
-            <div className='relative w-30 h-30 mx-auto overflow-hidden rounded-lg'>
+            <div className='relative w-30 h-30 mx-auto overflow-hidden rounded-lg wobble'>
                 <Image src="/jamesliuprofilepicture.png"
                 alt="James Liu Profile Picture"
                 className='object-cover object-[center_10%]'

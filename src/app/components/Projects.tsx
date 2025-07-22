@@ -45,7 +45,7 @@ export default function ProjectSection() {
                                 <p className='text-[1rem] text-txt-color'>{project.desc}</p>
                                 <div className='mt-3 flex flex-row gap-1.5 flex-wrap'>
                                     {project.skills.map( (skill, index) => (
-                                        <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm'>
+                                        <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm hover:scale-105 duration-300 hover:text-black'>
                                             <p>{skill}</p>
                                         </div>
                                     )
