@@ -15,12 +15,12 @@ export default function Header() {
 
     return(
         <div className='border border-gray-300 dotted'>
-            <div className='flex flex-row font-mono justify-between text-txt-color p-6'>
-                <div className='flex flex-row gap-1'>
+            <div className='flex flex-row font-mono justify-between items-center text-txt-color p-6 gap-3'>
+                <div className='flex flex-row gap-1 items-center'>
                     <MapPin className='w-4'/>
-                    <h3>Los Angeles, California</h3>
+                    <h3 className='text-xs md:text-[1rem]'>Los Angeles, California</h3>
                 </div>
-                <p>{formattedTime}</p>
+                <p className='text-xs md:text-[1rem]'>{formattedTime}</p>
             </div>
         </div>
     );
