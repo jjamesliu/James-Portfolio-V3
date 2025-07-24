@@ -42,20 +42,20 @@ export default function ProjectSection() {
                                     src={project.image}/>
                                 </div>
                                 <h1 className='text-[1.2rem] text-gray-700 hover:underline'><a href={project.website} target="_blank">{project.title}</a></h1>
-                                <p className='text-[1rem] text-txt-color'>{project.desc}</p>
+                                <p className='text-sm md:text-[1rem] text-txt-color'>{project.desc}</p>
                                 <div className='mt-3 flex flex-row gap-1.5 flex-wrap'>
                                     {project.skills.map( (skill, index) => (
                                         <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm hover:scale-105 duration-300 hover:text-black'>
-                                            <p>{skill}</p>
+                                            <p className='text-xs md:text-[1rem]'>{skill}</p>
                                         </div>
                                     )
                                     )}
                                 </div>
-                                <div className='flex flex-row gap-3 mt-4 '>
-                                    <a className='justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                <div className='flex flex-row gap-3 mt-4 px-2 '>
+                                    <a className='text-sm md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
                                     href={project.github}
                                     target="_blank"><Github />Github</a>
-                                    <a className='justify-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                    <a className='text-sm md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
                                     href={project.website}
                                     target="_blank"><Globe />Website</a>
                                 </div>
