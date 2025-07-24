@@ -71,7 +71,7 @@ export default function ProjectSection() {
                                         </p>
                                         {shouldTruncate &&  (
                                             <button onClick={ ()=>toggleExpanded(project.id)}
-                                            className='text-blue-600 hover:text-blue-800 font-medium mt-1 text-sm'>
+                                            className='text-blue-600 hover:text-blue-800 font-medium mt-1 text-xs'>
                                                 {isExpanded ? 'Read less': 'Read more'}
                                             </button>
                                         )}
