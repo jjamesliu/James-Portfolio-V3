@@ -3,13 +3,38 @@ import { useState } from 'react';
 import { Github, Globe } from 'lucide-react';
 
 export default function ProjectSection() {
-    const projects = [{
-        id: 'chefcowai',
-        title: "Chef Cow AI",
+    const projects = [
+    {
+        id: 'devdigest',
+        title: "Dev Digest",
+        desc: `DevDigest is a personalized, responsive web application built with Next.js, React, and 
+        TailwindCSS, and deployed on Vercel. It curates and recommends trending content—such as GitHub 
+        repositories, YouTube videos, and blog posts—based on your programming interests. 
+        (Project in progress.)`,
+        image: "/devdigest.png",
+        github: "https://github.com/jjamesliu/DevDigest",
+        website: "https://devdigestproto.vercel.app/",
+        skills: ["React", "TailwindCSS", "NextJS", "Vercel", "Google YouTube API", "DevTo API", "Reddit API", "GitHub API"]
+    },
+    {
+        id: 'AZMWINNER Coaching Program',
+        title: "AZMWINNER Coaching Program",
         desc: `Built a responsive React web application using Vite and TailwindCSS, deployed via Netlify. 
       The app integrates MistralAI’s language model via Hugging Face’s inference API to generate real-time recipe suggestions based on user-inputted ingredients. 
       Implemented custom state management for efficient form handling and used React’s component-based architecture for dynamic UI rendering 
       and smooth user experience.`,
+        image: "/amzwinner.png",
+        github: "https://github.com/zhidesign/amzwinners",
+        website: "https://amzwinners.netlify.app/",
+        skills: ["React", "TailwindCSS", "Netlify", "FormSpree API"]
+    },
+    {
+        id: 'chefcowai',
+        title: "Chef Cow AI",
+        desc: `Developed a responsive landing page using React (Vite) and TailwindCSS for a coaching 
+        program client. The site features a compelling video sales letter (VSL), 
+        integrated client testimonials, and a Formspree-powered contact form to capture leads for 
+        SMS and email marketing, boosting conversion.`,
         image: "/chefcowai.png",
         github: "https://github.com/jjamesliu/ChefCowAI",
         website: "https://chefcowai.netlify.app/",
