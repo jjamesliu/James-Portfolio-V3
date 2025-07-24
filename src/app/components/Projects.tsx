@@ -19,10 +19,10 @@ export default function ProjectSection() {
     {
         id: 'AZMWINNER Coaching Program',
         title: "AZMWINNER Coaching Program",
-        desc: `Built a responsive React web application using Vite and TailwindCSS, deployed via Netlify. 
-      The app integrates MistralAI’s language model via Hugging Face’s inference API to generate real-time recipe suggestions based on user-inputted ingredients. 
-      Implemented custom state management for efficient form handling and used React’s component-based architecture for dynamic UI rendering 
-      and smooth user experience.`,
+        desc: `Developed a responsive landing page using React (Vite) and TailwindCSS for a coaching 
+        program client. The site features a compelling video sales letter (VSL), 
+        integrated client testimonials, and a Formspree-powered contact form to capture leads for 
+        SMS and email marketing, boosting conversion.`,
         image: "/amzwinner.png",
         github: "https://github.com/zhidesign/amzwinners",
         website: "https://amzwinners.netlify.app/",
@@ -31,10 +31,10 @@ export default function ProjectSection() {
     {
         id: 'chefcowai',
         title: "Chef Cow AI",
-        desc: `Developed a responsive landing page using React (Vite) and TailwindCSS for a coaching 
-        program client. The site features a compelling video sales letter (VSL), 
-        integrated client testimonials, and a Formspree-powered contact form to capture leads for 
-        SMS and email marketing, boosting conversion.`,
+        desc: `Built a responsive React web application using Vite and TailwindCSS, deployed via Netlify. 
+      The app integrates MistralAI’s language model via Hugging Face’s inference API to generate real-time recipe suggestions based on user-inputted ingredients. 
+      Implemented custom state management for efficient form handling and used React’s component-based architecture for dynamic UI rendering 
+      and smooth user experience.`,
         image: "/chefcowai.png",
         github: "https://github.com/jjamesliu/ChefCowAI",
         website: "https://chefcowai.netlify.app/",
