@@ -17,8 +17,21 @@ export default function ProjectSection() {
         skills: ["React", "TailwindCSS", "NextJS", "Vercel", "Google YouTube API", "DevTo API", "Reddit API", "GitHub API"]
     },
     {
-        id: 'AZMWINNER Coaching Program',
-        title: "AZMWINNER Coaching Program",
+        id: 'salemwfs',
+        title: "SalemWFS Walmart Blueprint VSL",
+        desc: `Developed a fully responsive, high-converting landing page for a coaching program using React and TailwindCSS, 
+        deployed via Vercel. The page features a compelling Video Sales Letter 
+        (VSL) with client testimonials, and a lead capture system. Integrated Firebase and Zapier to 
+        automate email workflows for new signups, enhancing client engagement. Designed to drive lead 
+        conversion through a seamless user experience and modern frontend architecture.`,
+        image: "/salemwfs.png",
+        github: "https://github.com/zhidesign/salemwfs",
+        website: "https://salemwfs.vercel.app/",
+        skills: ["React", "TailwindCSS", "Vercel", "NextJS", "TypeScript", "Shadcn", "Google Firebase", "Zapier"]
+    },
+    {
+        id: 'amzwinner',
+        title: "AMZWinner Coaching Program",
         desc: `Developed a responsive landing page using React (Vite) and TailwindCSS for a coaching 
         program client. The site features a compelling video sales letter (VSL), 
         integrated client testimonials, and a Formspree-powered contact form to capture leads for 
