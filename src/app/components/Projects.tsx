@@ -83,8 +83,8 @@ export default function ProjectSection() {
     };
 
     return (
-        <div className='py-6 px-15 border border-gray-400 border-dotted border-t-0'>
-            <h1 className='font-mono font-semibold'>PROJECTS</h1>
+        <div className='py-6 px-4 sm:px-15 border border-gray-400 border-dotted border-t-0'>
+            <h1 className='font-mono font-semibold px-11 sm:px-0'>PROJECTS</h1>
 
                 <div className='flex flex-col mt-3 gap-5'>
                     {projects.map( (project) => {
