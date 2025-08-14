@@ -23,8 +23,18 @@
   75% { transform: rotate(-1deg); }
 }
 
+@keyframes fade {
+  0%, 100% { color: var(--txt-color)}
+  50% {color: black}
+}
+
+
 .wobble {
   animation: wobble 0.8s ease-in-out;
+}
+
+.fade {
+  animation: fade 1.5s ease-in-out infinite;
 }
 
 

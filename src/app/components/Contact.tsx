@@ -12,7 +12,7 @@ export default function Contact() {
                         <p>Email</p>
                     </div>
                     <a href="mailto:liujameszhi@gmail.com" 
-                    className='text-txt-color hover:scale-110 transform transition duration-300'>liujameszhi@gmail.com</a>
+                    className='text-txt-color hover:scale-110 transform transition duration-300 fade hover:underline'>liujameszhi@gmail.com</a>
                 </div>
                 <div className='flex flex-row justify-between'>
                     <div className='flex flex-row gap-1'>
@@ -20,7 +20,7 @@ export default function Contact() {
                         <p>LinkedIn</p>
                     </div>
                     <a href="https://www.linkedin.com/in/jameszhiliu/" 
-                    className='text-txt-color hover:scale-110 transform transition duration-300' target="_blank">/in/jameszhiliu</a>
+                    className='text-txt-color hover:scale-110 transform transition duration-300 fade hover:underline' target="_blank">/in/jameszhiliu</a>
                 </div>
                 <div className='flex flex-row justify-between'>
                     <div className='flex flex-row gap-1'>
@@ -28,7 +28,7 @@ export default function Contact() {
                         <p>GitHub</p>
                     </div>
                     <a href="https://github.com/jjamesliu" 
-                    className='text-txt-color hover:scale-110 transform transition duration-300' target="_blank">jjamesliu</a>
+                    className='text-txt-color hover:scale-110 transform transition duration-300 fade hover:underline' target="_blank">jjamesliu</a>
                 </div>
             </div>
         </div>
