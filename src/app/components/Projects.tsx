@@ -125,11 +125,11 @@ export default function ProjectSection() {
                                     )
                                     )}
                                 </div>
-                                <div className='flex flex-row gap-3 mt-4 px-2 '>
-                                    <a className='text-sm md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                <div className='flex flex-col md:flex-row gap-1 md:gap-3 mt-4'>
+                                    <a className='text-[0.8rem] md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
                                     href={project.github}
                                     target="_blank"><Github />Github</a>
-                                    <a className='text-sm md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                    <a className='text-[0.8rem] md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
                                     href={project.website}
                                     target="_blank"><Globe />Website</a>
                                 </div>
