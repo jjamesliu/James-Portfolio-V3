@@ -5,6 +5,17 @@ import { Github, Globe } from 'lucide-react';
 export default function ProjectSection() {
     const projects = [
     {
+        id: 'swiftymail',
+        title: "SwiftyMail AI",
+        desc: `Built a full-stack SaaS application that allows users to upload email lists and 
+        send automated cold email campaigns with AI-assisted content generation. Implemented features 
+        to improve deliverability and prevent spam via smart cooldowns and queuing logic.`,
+        image: "./swiftymail.png",
+        github: "https://swiftymail.vercel.app/",
+        website: "https://swiftymail.vercel.app/",
+        skills: ["NextJS", "TailwindCSS", "TypeScript", "Supabase", "PostgreSQL", "Vercel", "OpenAI API"]
+    },
+    {
         id: 'devdigest',
         title: "Dev Digest",
         desc: `DevDigest is a personalized, responsive web application built with Next.js, React, and 
@@ -119,17 +130,17 @@ export default function ProjectSection() {
 
                                 <div className='mt-3 flex flex-row gap-1.5 flex-wrap'>
                                     {project.skills.map( (skill, index) => (
-                                        <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm hover:scale-105 duration-300 hover:text-black'>
+                                        <div key={index} className='border border-gray rounded-xl px-2 py-1 bg-[rgb(240,240,240)] text-gray-500 text-sm hover:scale-105 duration-300 hover:text-black active:scale-105 active:text-black'>
                                             <p className='text-xs md:text-[1rem]'>{skill}</p>
                                         </div>
                                     )
                                     )}
                                 </div>
                                 <div className='flex flex-col md:flex-row gap-1 md:gap-3 mt-4'>
-                                    <a className='text-[0.8rem] md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                    <a className='text-[0.8rem] md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black active:scale-103 active:bg-green-400 active:text-black'
                                     href={project.github}
                                     target="_blank"><Github />Github</a>
-                                    <a className='text-[0.8rem] md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black'
+                                    <a className='text-[0.8rem] md:text-[1rem] justify-center items-center flex flex-1 gap-1 border rounded-lg p-2 text-white bg-black shadow-2xl hover:scale-103 duration-300 hover:bg-green-400 hover:text-black active:scale-103 active:bg-green-400 active:text-black'
                                     href={project.website}
                                     target="_blank"><Globe />Website</a>
                                 </div>
