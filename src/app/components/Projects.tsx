@@ -6,7 +6,7 @@ export default function ProjectSection() {
     const projects = [
     {
         id: 'swiftymail',
-        title: "SwiftyMail AI",
+        title: "SwiftyMail",
         desc: `Built a full-stack SaaS application that allows users to upload email lists and 
         send automated cold email campaigns with AI-assisted content generation. Implemented features 
         to improve deliverability and prevent spam via smart cooldowns and queuing logic.`,
