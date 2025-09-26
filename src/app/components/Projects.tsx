@@ -10,9 +10,9 @@ export default function ProjectSection() {
         desc: `Built a full-stack SaaS application that allows users to upload email lists and 
         send automated cold email campaigns with AI-assisted content generation. Implemented features 
         to improve deliverability and prevent spam via smart cooldowns and queuing logic.`,
-        image: "./swiftymail.png",
-        github: "https://swiftymail.vercel.app/",
-        website: "https://swiftymail.vercel.app/",
+        image: "./swiftypremium.png",
+        github: "https://swiftypremium.com",
+        website: "https://swiftypremium.com",
         skills: ["NextJS", "TailwindCSS", "TypeScript", "Supabase", "PostgreSQL", "Vercel", "OpenAI API"]
     },
     {
@@ -39,18 +39,6 @@ export default function ProjectSection() {
         github: "https://github.com/zhidesign/salemwfs",
         website: "https://salemwfs.vercel.app/",
         skills: ["React", "TailwindCSS", "Vercel", "NextJS", "TypeScript", "Shadcn", "Google Firebase", "Zapier"]
-    },
-    {
-        id: 'amzwinner',
-        title: "AMZWinner Coaching Program",
-        desc: `Developed a responsive landing page using React (Vite) and TailwindCSS for a coaching 
-        program client. The site features a compelling video sales letter (VSL), 
-        integrated client testimonials, and a Formspree-powered contact form to capture leads for 
-        SMS and email marketing, boosting conversion.`,
-        image: "/amzwinner.png",
-        github: "https://github.com/zhidesign/amzwinners",
-        website: "https://amzwinners.netlify.app/",
-        skills: ["React", "TailwindCSS", "Netlify", "FormSpree API"]
     },
     {
         id: 'chefcowai',

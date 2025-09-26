@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail} from 'lucide-react';
+import { Linkedin, Github, Mail, Instagram} from 'lucide-react';
 
 
 export default function Contact() {
@@ -29,6 +29,14 @@ export default function Contact() {
                     </div>
                     <a href="https://github.com/jjamesliu" 
                     className='text-txt-color hover:scale-110 transform transition duration-300 fade hover:underline' target="_blank">jjamesliu</a>
+                </div>
+                <div className='flex flex-row justify-between'>
+                    <div className='flex flex-row gap-1'>
+                        <Instagram className='w-5'/>
+                        <p>Instagram</p>
+                    </div>
+                    <a href="https://www.instagram.com/jamesliuu" 
+                    className='text-txt-color hover:scale-110 transform transition duration-300 fade hover:underline' target="_blank">jamesliuu</a>
                 </div>
             </div>
         </div>
