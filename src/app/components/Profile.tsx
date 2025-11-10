@@ -41,12 +41,6 @@ export default function Profile() {
                     cursor={false}
                     repeat={0}/>
                 </h3>
-                <div className='rounded-lg border-black border-[2px] text-black shadow-lg px-1.5 py-1 mt-2 hover:scale-110 duration-300 hover:bg-green-400 active:bg-green-400 '>
-                    <a className='flex items-center justify-center gap-1 font-semibold text-[0.9rem]'
-                    href="/jamesliu_resume.pdf" target="_blank">
-                        <FileUser className='w-6'/>Resume 
-                    </a>
-                </div>
             </div>
         </div>
     )
