@@ -16,18 +16,6 @@ export default function ProjectSection() {
         skills: ["NextJS", "TailwindCSS", "TypeScript", "Supabase", "PostgreSQL", "Vercel", "OpenAI API"]
     },
     {
-        id: 'devdigest',
-        title: "Dev Digest",
-        desc: `DevDigest is a personalized, responsive web application built with Next.js, React, and 
-        TailwindCSS, and deployed on Vercel. It curates and recommends trending content—such as GitHub 
-        repositories, YouTube videos, and blog posts—based on your programming interests. 
-        (Project in progress.)`,
-        image: "/devdigest.png",
-        github: "https://github.com/jjamesliu/DevDigest",
-        website: "https://devdigestproto.vercel.app/",
-        skills: ["React", "TailwindCSS", "NextJS", "Vercel", "Google YouTube API", "DevTo API", "Reddit API", "GitHub API"]
-    },
-    {
         id: 'salemwfs',
         title: "SalemWFS Walmart Blueprint VSL",
         desc: `Developed a fully responsive, high-converting landing page for a coaching program using React and TailwindCSS, 
@@ -82,7 +70,7 @@ export default function ProjectSection() {
     };
 
     return (
-        <div className='py-6 px-4 sm:px-15 border border-gray-400 border-dotted border-t-0'>
+        <div className='py-6 px-4 sm:px-15 border border-gray-400 border-dotted border-t-0 '>
             <h1 className='font-mono font-semibold px-11 sm:px-0'>PROJECTS</h1>
 
                 <div className='flex flex-col mt-3 gap-5'>
@@ -92,7 +80,8 @@ export default function ProjectSection() {
 
                         return (
                             <div key={project.id}
-                            className='flex flex-col border border-gray-400 p-6 rounded-xl border-dotted'>
+                            className='flex flex-col border border-gray-400 p-6 rounded-xl border-dotted '>
+                                
                                 <div className='overflow-hidden bg-red-100 w-full h-[15rem] sm:h-[25rem] mb-3 border border-gray-300 rounded-2xl shadow-lg'>
                                     <img className='w-full h-full object-cover'
                                     src={project.image}/>

@@ -35,15 +35,15 @@ export default function Profile() {
                 </h1>
                 <h3 className='text-xl font-medium text-txt-color'>
                     <TypeAnimation
-                    sequence={['Full Stack Developer']}
+                    sequence={['Software Engineer']}
                     wrapper="span"
                     speed={5}
                     cursor={false}
                     repeat={0}/>
                 </h3>
-                <div className='rounded-lg  border-black border-2 text-gray-700 shadow-lg px-1.5 py-1 mt-2 hover:scale-110 duration-300 hover:bg-green-400 hover:text-gray-700 active:bg-green-400 active:text-gray-700'>
+                <div className='rounded-lg border-black border-[2px] text-black shadow-lg px-1.5 py-1 mt-2 hover:scale-110 duration-300 hover:bg-green-400 active:bg-green-400 '>
                     <a className='flex items-center justify-center gap-1 font-semibold text-[0.9rem]'
-                    href="/james_resume.pdf" target="_blank">
+                    href="/jamesliu_resume.pdf" target="_blank">
                         <FileUser className='w-6'/>Resume 
                     </a>
                 </div>

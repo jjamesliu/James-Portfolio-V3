@@ -1,7 +1,7 @@
 export default function Skills() {
     const allSkills = ["React", "TypeScript", "Javascript", "TailwindCSS", 
         "Next.js", "Node.js", "HTML/CSS", "Vite", "Python", "Java", "C", "Supabase", "PostgreSQL", 
-        "Git"]
+        "Git", "Docker", "AWS", "MongoDB", "Django", "Flask"  ]
 
     return (
         <div className='flex flex-col gap-2 border border-gray-400 border-t-0 border-dotted py-6 px-15'>
