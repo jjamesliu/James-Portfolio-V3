@@ -16,6 +16,17 @@ export default function ProjectSection() {
         skills: ["NextJS", "TailwindCSS", "TypeScript", "Supabase", "PostgreSQL", "Vercel", "OpenAI API"]
     },
     {
+        id: 'supermileage',
+        title: "UCLA SuperMileage Vehicle Dashboard",
+        desc: `Currently developing a comprehensive web application for UCLA's Bruin SuperMileage 
+        team to monitor and analyze real-time data from their fuel-efficient vehicles. Using Django and PostgreSQL
+        for the backend to handle data ingestion from vehicle sensors.`,
+        image: "./supermileage.png",
+        github: "https://github.com/UCLA-Bruin-Supermileage/SMV-API",
+        website: "https://smv-api-frontend.vercel.app",
+        skills: ["Django", "React", "PostgreSQL", "TailwindCSS", "Vercel", "Recharts"]
+    },
+    {
         id: 'salemwfs',
         title: "SalemWFS Walmart Blueprint VSL",
         desc: `Developed a fully responsive, high-converting landing page for a coaching program using React and TailwindCSS, 
@@ -82,8 +93,8 @@ export default function ProjectSection() {
                             <div key={project.id}
                             className='flex flex-col border border-gray-400 p-6 rounded-xl border-dotted '>
                                 
-                                <div className='overflow-hidden bg-red-100 w-full h-[15rem] sm:h-[25rem] mb-3 border border-gray-300 rounded-2xl shadow-lg'>
-                                    <img className='w-full h-full object-cover'
+                                <div className='overflow-hidden bg-gray-100 w-full  mb-3 border border-gray-300 rounded-2xl shadow-lg'>
+                                    <img className='w-full max-h-[500px] object-contain hover:scale-105 duration-300'
                                     src={project.image}/>
                                 </div>
                                 <h1 className='text-[1.2rem] text-gray-700 hover:underline'><a href={project.website} target="_blank">{project.title}</a></h1>
