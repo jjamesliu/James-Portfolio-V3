@@ -19,6 +19,8 @@
   --extra-subtext1: #b5bfe2;
   --extra-subtext2: #a5adce;
 
+  --blue-accent: #5a85ea;
+
   --background: #ffffff;
   --foreground: #171717;
   --txt-color: rgb(126, 126, 126);
@@ -59,10 +61,22 @@
     @apply cursor-pointer;
   }
 
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
 }
 
 
 @theme inline {
+  --color-blue-accent: var(--blue-accent);
+  
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
