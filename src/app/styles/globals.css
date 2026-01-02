@@ -20,10 +20,6 @@
   --extra-subtext2: #a5adce;
 
   --blue-accent: #5a85ea;
-
-  --background: #ffffff;
-  --foreground: #171717;
-  --txt-color: rgb(126, 126, 126);
 }
 
 @layer base {

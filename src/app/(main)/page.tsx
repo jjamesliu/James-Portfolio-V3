@@ -1,6 +1,6 @@
-import Navbar from './components/Navbar';
-import About from './components/About';
-import Projects from './components/Projects';
+import Navbar from '../components/Navbar';
+import About from '../components/About';
+import Projects from '../components/Projects';
 
 const Home = () => {
   return (

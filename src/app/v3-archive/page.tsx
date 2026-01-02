@@ -1,11 +1,12 @@
-import Header from "../components/v3/Header";
-import Profile from "../components/v3/Profile";
-import About from "../components/v3/About";
-import Contact from "../components/v3/Contact";
-import Skills from "../components/v3/Skills";
-import Work from "../components/v3/Work";
-import Projects from "../components/v3/Projects";
-import Footer from "../components/v3/Footer";
+import "./v3.css";
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import Work from "./components/Work";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 export default function JamesPortfolioV3() {
     return (
@@ -14,7 +15,6 @@ export default function JamesPortfolioV3() {
         <Profile />
         <About />
         <Skills />
-        {/* <Work /> */}
         <Projects />
         <Contact />
         <Footer />
