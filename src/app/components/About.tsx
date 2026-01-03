@@ -13,20 +13,20 @@ const About = () => {
                 <div className='flex flex-row gap-3'>
                     <a href="https://github.com/jjamesliu" target="_blank"
                     rel="noopener noreferrer"
-                    className='flex gap-1 justify-center items-center hover:text-blue-accent transition duration-300 ease-in-out'>
+                    className='flex gap-1 justify-center items-center hover:text-soft-modern-blue transition duration-300 ease-in-out'>
                         <Github size={20}/>
                         <span>Github</span>
                     </a>
                     <span>|</span>
                     <a href="https://linkedin.com/in/jameszhiliu" target="_blank"
                     rel="noopener noreferrer"
-                    className='flex gap-1 justify-center items-center hover:text-blue-accent transition duration-300 ease-in-out'>
+                    className='flex gap-1 justify-center items-center hover:text-soft-modern-blue transition duration-300 ease-in-out'>
                         <Linkedin size={18}/>
                         <span>LinkedIn</span>
                     </a>
                     <span>|</span>
                     <a href="mailto:liujameszhi@gmail.com"
-                    className='flex gap-1 justify-center items-center hover:text-blue-accent transition duration-300 ease-in-out'>
+                    className='flex gap-1 justify-center items-center hover:text-soft-modern-blue transition duration-300 ease-in-out'>
                         <Mail size={20}/>
                         <span>Email</span>
                     </a>

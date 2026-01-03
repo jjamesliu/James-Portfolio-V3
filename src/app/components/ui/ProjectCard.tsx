@@ -27,7 +27,7 @@ export default function ProjectCard({
             </a>
             <div className='flex flex-col justify-between gap-4 p-4 flex-1'>
                 <div className='flex flex-col space-y-2'>
-                    <h1 className='group-hover:text-blue-accent duration-300'>{title}</h1>
+                    <h1 className='group-hover:text-soft-modern-blue duration-300'>{title}</h1>
                     <p>{description}</p>
                     <div className='flex flex-wrap gap-2'>
                     {tags.map((tag) => (

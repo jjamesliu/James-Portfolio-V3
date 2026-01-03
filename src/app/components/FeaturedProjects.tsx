@@ -5,17 +5,16 @@ import projectsData from "@/app/data/projects.json";
 
 const Projects = () => {
     const featuredProjects = projectsData.featured;
-
     return (
         <div className='space-y-8'>
             <div className='flex justify-between items-center'>
                 <div className='flex gap-2 items-center'>
-                    <Star size={30} className='text-blue-accent'/>
+                    <Star size={30} className='text-soft-modern-blue'/>
                     <h1>Featured Projects</h1>
                 </div>
-                <div className='flex items-center gap-1'>
-                    <button className='underline decoration-dotted text-blue-accent'>View all</button>
-                    <ArrowRight size={18} className='text-blue-accent'/>
+                <div className='flex items-center gap-1 group'>
+                    <button className='underline decoration-dotted text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'>View all</button>
+                    <ArrowRight size={18} className='text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'/>
                 </div>
             </div>
 
