@@ -9,7 +9,7 @@ export default function Projects() {
         <div>
             <Navbar />
             <div className='max-w-6xl mt-20 mx-auto p-10 space-y-30'>
-                <div className='grid grid-cols-2 gap-8'>
+                <div className='grid md:grid-cols-2 gap-8'>
                     {projects.map((project) => (
                         <ProjectCard key={project.id} {...project} />
                     ))}

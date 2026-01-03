@@ -38,8 +38,8 @@
         {
             "id": "forecast-prediction",
             "title": "Forecast Prediction ",
-            "description": "Prediction Market for UCLA students. Closed Invites and currently Beta Testing. Building with Max.",
-            "longDescription": "Prediction Market for UCLA students. Closed Invites and currently Beta Testing. Building with Max.",
+            "description": "Prediction Market for UCLA students. Closed Invites and currently Beta Testing. Building with Max Lee and I-PSI.",
+            "longDescription": "Prediction Market for UCLA students. Closed Invites and currently Beta Testing. Building with Max and I-PSI.",
             "github": "",
             "demo": "",
             "tags": [
@@ -53,7 +53,7 @@
         },
         {
             "id": "ucla-supermileage-dashboard",
-            "title": "UCLA Supermileage Vehicle Dashboard",
+            "title": "UCLA Supermileage Dashboard",
             "description": "Analytics dashboard for monitoring vehicle performance, efficiency metrics, and real-time sensor data.",
             "longDescription": "Analytics dashboard for monitoring vehicle performance, efficiency metrics, and real-time sensor data.",
             "github": "https://github.com/UCLA-Bruin-Supermileage/SMV-API",
@@ -62,7 +62,8 @@
                 "React",
                 "Next.js",
                 "Python",
-                "FastAPI"
+                "FastAPI",
+                "Django"
             ],
             "image": "/projects/supermileage.png"
         },
