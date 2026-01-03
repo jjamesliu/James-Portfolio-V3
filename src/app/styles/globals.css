@@ -19,7 +19,8 @@
   --extra-subtext1: #b5bfe2;
   --extra-subtext2: #a5adce;
 
-  --blue-accent: #5a85ea;
+  --blue-accent: #6e8edf;
+  --soft-modern-blue: #4084f9;
 }
 
 @layer base {
@@ -58,13 +59,21 @@
   }
 
   h1 {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.25;
+
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 
   p {
-    font-size: 1.15rem;
+    font-size: 1rem;
+
+    @media (max-width: 768px) {
+      font-size:1rem;
+    }
   }
 
 }
@@ -72,7 +81,12 @@
 
 @theme inline {
   --color-blue-accent: var(--blue-accent);
-  
+  --color-soft-modern-blue: var(--soft-modern-blue);
+
+  --color-surface: var(--surface);
+
+
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -81,23 +95,57 @@
 }
 
 @keyframes wobble {
-  0%, 100% { transform: rotate(0deg); }
-  15% { transform: rotate(-5deg); }
-  30% { transform: rotate(4deg); }
-  45% { transform: rotate(-3deg); }
-  60% { transform: rotate(2deg); }
-  75% { transform: rotate(-1deg); }
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  15% {
+    transform: rotate(-5deg);
+  }
+
+  30% {
+    transform: rotate(4deg);
+  }
+
+  45% {
+    transform: rotate(-3deg);
+  }
+
+  60% {
+    transform: rotate(2deg);
+  }
+
+  75% {
+    transform: rotate(-1deg);
+  }
 }
 
 @keyframes fade {
-  0%, 100% { color: var(--txt-color)}
-  50% {color: black}
+
+  0%,
+  100% {
+    color: var(--txt-color)
+  }
+
+  50% {
+    color: black
+  }
 }
 
 @keyframes gradient {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 

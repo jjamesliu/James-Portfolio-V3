@@ -1,0 +1,82 @@
+{
+    "featured": [
+        {
+            "id": "bruinloop",
+            "title": "BruinLoop",
+            "description": "Find open study rooms at UCLA. Check nearby classrooms like Boelter and see whether they are empty.",
+            "longDescription": "Check to see any open study rooms at UCLA.",
+            "github": "e",
+            "demo": "https://apps.apple.com/us/app/bruinloop/id6756941139",
+            "tags": [
+                "React Native",
+                "Expo",
+                "TypeScript",
+                "PostgreSQL",
+                "Python",
+                "Fly.io"
+            ],
+            "image": "/projects/bruinloop.png"
+        },
+        {
+            "id": "swiftymail",
+            "title": "SwiftyMail",
+            "description": "Don't waste countless hours drafting your cold emails and manually sending them to hundreds of different people. Use SwiftyMail to draft and send 100+ personalized emails with AI with a single click.",
+            "longDescription": "Draft and Send 100+ Personalized Emails with AI in a single click.",
+            "github": "",
+            "demo": "https://swiftypremium.com",
+            "tags": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "PostgreSQL",
+                "Supabase"
+            ],
+            "image": "/projects/swiftymail.png"
+        }
+    ],
+    "other": [
+        {
+            "id": "forecast-prediction",
+            "title": "Forecast Prediction ",
+            "description": "Prediction Market for UCLA students.",
+            "longDescription": "Prediction Market for UCLA students.",
+            "github": "",
+            "demo": "",
+            "tags": [
+                "React Native",
+                "TypeScript",
+                "Supabase"
+            ],
+            "image": "/projects/forecast.png"
+        },
+        {
+            "id": "ucla-supermileage-dashboard",
+            "title": "UCLA Supermileage Vehicle Dashboard",
+            "description": "Analytics dashboard for monitoring vehicle performance, efficiency metrics, and real-time sensor data.",
+            "longDescription": "Analytics dashboard for monitoring vehicle performance, efficiency metrics, and real-time sensor data.",
+            "github": "https://github.com/UCLA-Bruin-Supermileage/SMV-API",
+            "demo": "https://smv-api-frontend.vercel.app/",
+            "tags": [
+                "React",
+                "Next.js",
+                "Python",
+                "FastAPI"
+            ],
+            "image": "/projects/ucla-supermileage.png"
+        },
+        {
+            "id": "freelance-portfolio",
+            "title": "Freelance Client Portfolio",
+            "description": "Personal freelance portfolio showcasing all my client projects.",
+            "longDescription": "Personal freelance portfolio showcasing all my client projects.",
+            "github": "",
+            "demo": "https://zhidesign.framer.website",
+            "tags": [
+                "React",
+                "Next.js",
+                "TailwindCSS"
+            ],
+            "image": "/projects/freelance-portfolio.png"
+        }
+    ]
+}

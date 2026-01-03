@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useTheme, type Theme} from "../providers/theme-provider";
+import { useTheme, type Theme} from "@/app/providers/theme-provider";
 import { useIsMobile } from "@/app/hooks/useIsMobile";
 import { Sun, Star, Moon, Menu, X } from "lucide-react";
 
