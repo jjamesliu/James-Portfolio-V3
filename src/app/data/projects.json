@@ -38,12 +38,14 @@
         {
             "id": "forecast-prediction",
             "title": "Forecast Prediction ",
-            "description": "Prediction Market for UCLA students.",
-            "longDescription": "Prediction Market for UCLA students.",
+            "description": "Prediction Market for UCLA students. Closed Invites and currently Beta Testing. Building with Max.",
+            "longDescription": "Prediction Market for UCLA students. Closed Invites and currently Beta Testing. Building with Max.",
             "github": "",
             "demo": "",
             "tags": [
                 "React Native",
+                "Next.js",
+                "Vercel",
                 "TypeScript",
                 "Supabase"
             ],
@@ -62,7 +64,7 @@
                 "Python",
                 "FastAPI"
             ],
-            "image": "/projects/ucla-supermileage.png"
+            "image": "/projects/supermileage.png"
         },
         {
             "id": "freelance-portfolio",
@@ -76,7 +78,7 @@
                 "Next.js",
                 "TailwindCSS"
             ],
-            "image": "/projects/freelance-portfolio.png"
+            "image": "/projects/freelanceportfolio.png"
         }
     ]
 }

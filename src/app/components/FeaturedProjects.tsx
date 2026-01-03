@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { Star, ArrowRight } from "lucide-react";
 import ProjectCard from "@/app/components/ui/ProjectCard";
 import projectsData from "@/app/data/projects.json";
@@ -13,7 +15,7 @@ const Projects = () => {
                     <h1>Featured Projects</h1>
                 </div>
                 <div className='flex items-center gap-1 group'>
-                    <button className='underline decoration-dotted text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'>View all</button>
+                    <Link href="/projects" className='underline decoration-dotted text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'>View all</Link>
                     <ArrowRight size={18} className='text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'/>
                 </div>
             </div>
