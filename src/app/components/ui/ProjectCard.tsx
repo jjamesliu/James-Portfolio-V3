@@ -1,6 +1,7 @@
 import { Github, Globe } from "lucide-react";
 import Button from "@/app/components/ui/Button";
 interface ProjectCardProps {
+    id: string;
     title: string;
     description: string;
     longDescription: string;
@@ -12,6 +13,7 @@ interface ProjectCardProps {
 
 
 export default function ProjectCard({
+    id,
     title,
     description,
     longDescription,

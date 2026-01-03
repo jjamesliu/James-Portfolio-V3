@@ -123,14 +123,15 @@
 
 @keyframes fade {
 
-  0%,
-  100% {
-    color: var(--txt-color)
+  0%, 100% {
+    color: var(--text);
+    opacity:0.3;
+  }
+  50% {
+    color: var(--text);
+    opacity:1;
   }
 
-  50% {
-    color: black
-  }
 }
 
 @keyframes gradient {

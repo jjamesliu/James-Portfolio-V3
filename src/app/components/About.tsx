@@ -3,7 +3,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const About = () => {
     return (
             <div className='flex flex-col space-y-6 max-w-3xl'>
-                <h1>Hi! I'm James <span className='inline-block wobble'>👋</span></h1>
+                <h1>Hi! I'm James Liu <span className='inline-block wobble'>👋</span></h1>
                 <p className='leading-8 text-[1.25rem]'>
                     I'm a software engineer specialized in building web and mobile applications
                     that solve real problems, with a strong focus on usability, performance, and
