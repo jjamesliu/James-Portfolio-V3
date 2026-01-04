@@ -4,7 +4,7 @@ import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 
 export default function Projects() {
-    const projects = projectsData.other;
+    const projects = [...projectsData.featured, ...projectsData.other]
     return (
         <div>
             <Navbar />
