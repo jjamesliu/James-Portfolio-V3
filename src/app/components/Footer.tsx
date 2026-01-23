@@ -10,7 +10,7 @@ const Footer = () => {
                     <Copyright size={10} />
                     <p>2026 James Liu</p>
                 </div>
-                <Link href="/v3-archive" target="_blank" className='italic fade font-semibold underline'>Click here for old portfolio</Link>
+                
             </div>
             <div className='flex gap-6'>
                 <a href="https://github.com/jjamesliu" target="_blank"
