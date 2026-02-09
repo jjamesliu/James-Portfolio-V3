@@ -7,8 +7,7 @@ const About = () => {
                 <p className='leading-8 text-[1.25rem]'>
                     I&apos;m a software engineer specialized in building web and mobile applications
                     that solve real problems, with a strong focus on usability, performance, and
-                    clean architecture. I&apos;m currently a 3rd year @ UCLA and I&apos;m currently building Forecast,
-                    a prediction market for UCLA students.
+                    clean architecture. I&apos;m currently a 3rd year @ UCLA.
                 </p>
                 <div className='flex flex-row gap-3'>
                     <a href="https://github.com/jjamesliu" target="_blank"

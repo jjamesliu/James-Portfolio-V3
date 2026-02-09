@@ -9,13 +9,13 @@ const Projects = () => {
     const featuredProjects = projectsData.featured;
     return (
         <div className='space-y-8'>
-            <div className='flex justify-between items-center'>
+            <div className='flex justify-between items-center gap-2'>
                 <div className='flex gap-2 items-center'>
                     <Star size={30} className='text-soft-modern-blue'/>
-                    <h1>Featured Projects</h1>
+                    <h1 className='text-[15px] md:text-xl'>Featured Projects</h1>
                 </div>
                 <div className='flex items-center gap-1 group'>
-                    <Link href="/projects" className='underline decoration-dotted text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'>View all</Link>
+                    <Link href="/projects" className='underline decoration-dotted text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out text-[14px] md:text-lg'>View all</Link>
                     <ArrowRight size={18} className='text-blue-accent group-hover:text-soft-modern-blue duration-300 ease-in-out'/>
                 </div>
             </div>
